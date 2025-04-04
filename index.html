@@ -3,54 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LuxeQuest - Luxury Travel</title>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    <title>LuxeQuest - Luxury Travel & High-End Experiences</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: 'Lora', serif;
-            background-color: #F7F7F7;
-            color: black;
-            margin: 0;
-            padding: 0;
-        }
         header {
-            background: linear-gradient(90deg, #006838, #96CF24);
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 36px;
-            text-transform: uppercase;
-        }
-        .hero-image {
-            width: 100%;
-            height: 400px;
-            background: url('mar-bustos-ARVFsI-32Uk-unsplash.jpg') no-repeat center center/cover;
-        }
-        footer {
-            background-color: black;
-            color: white;
+            background-color: teal;
             text-align: center;
             padding: 20px;
+        }
+        .hero img {
+            width: 100%;
+            height: auto;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-
-<header>
-    Welcome to LuxeQuest – Your Guide to Luxury Travel
-</header>
-
-<div class="hero-image"></div>
-
-<main>
-    <h2 style="font-family: 'Bebas Neue', sans-serif;">Discover High-End Experiences</h2>
-    <p>Explore the world in style with LuxeQuest. From luxury resorts to exclusive getaways, we bring you the best in travel.</p>
-</main>
-
-<footer>
-    &copy; 2025 LuxeQuest. All Rights Reserved.
-</footer>
-
+    <header>
+        <div class="hero">
+            <img src="images/new-header-image.jpg" alt="Luxury Travel">
+        </div>
+        <div class="hero-text">
+            <h1>Welcome to LuxeQuest</h1>
+            <p>Your Gateway to Luxury Travel & High-End Experiences</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="hotels.html">Hotels</a></li>
+            <li><a href="experiences.html">Experiences</a></li>
+            <li><a href="deals.html">Deals</a></li>
+            <li><a href="essentials.html">Essentials</a></li>
+            <li><a href="bookings.html">Bookings</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="intro">
+            <h2>Discover Exotic Destinations</h2>
+            <p>Explore the world’s most luxurious travel experiences curated just for you.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 LuxeQuest. All rights reserved.</p>
+    </footer>
 </body>
 </html>
